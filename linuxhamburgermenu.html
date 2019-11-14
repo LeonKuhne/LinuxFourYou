@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<!-- Group Project hamburger menu -->
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="hamburgercss.css">
+    <script src="hamburger.js"></script>
+</head>
+
+<body>
+
+    <nav id="nav">
+
+        <a href="javascript:void(0);" id="icon" onclick="changeMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </a>
+
+        <ul id="menu">
+            <li><a href="javascript:void(0);" id="about" onclick="childrenBelow('belowAbout')">About</a>
+                <ul id="belowAbout">
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">History of Linux</a></li>
+                    <li><a href="">Purpose of Linux</a></li>
+                    <li><a href="">Where is Linux?</a></li>
+                </ul>
+            </li>
+            <li><a href="javascript:void(0);" id="why" onclick="childrenBelow('belowWhy')">Why Linux?</a>
+                <ul id="belowWhy">
+                    <li><a href="">Comparisons</a></li>
+                    <li><a href="">Facts</a></li>
+                </ul>
+            </li>
+            <li><a href="">Install</a></li>
+            <li><a href="javascript:void(0);" id="tuts" onclick="childrenBelow('belowTuts')">Tutorials</a>
+                <ul id="belowTuts">
+                    <li><a href="">Beginner</a></li>
+                    <li><a href="">Intermediate</a></li>
+                    <li><a href="">Advanced</a></li>
+                    <li><a href="">Tips and tricks</a></li>
+                </ul>
+            </li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Programs</a></li>
+            <li><a href="">FAQ</a></li>
+        </ul>
+
+    </nav>
+
+    </body>
+
+</body>
+
+</html>
