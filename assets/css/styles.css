@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'Courier New';
+    background-color: #d54a2d;
+}
+
+header {
+    margin: auto;
+}
+
+.logo>img {
+    position: fixed;
+    max-height: 40px;
+}
+
+.content {
+    background-color: #eee;
+    font-family: 'Trebuchet MS';
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.content hr {
+    margin: 0;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-left: 1px dotted black;
+    border-right: 1px dotted black;
+}
+
+.section button {
+    max-width: max-content;
+}
+
+.section a {
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    width: 100%;
+    background-image: url("../images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.banner-text {
+    max-width: min-content;
+    text-align: center;
+    margin: auto;
+    color: black;
+    padding: 20px 60px 20px 60px;
+    background-color: #eeea;
+    border-radius: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .content {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+}
