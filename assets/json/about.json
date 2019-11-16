@@ -1,0 +1,24 @@
+{
+    "sections": [
+        {
+            "header": "History",
+            "text": "Linux was created by finnish student Linux Torvalds. Torvalds wanted to create a free operating system kernel and thus made the Linux kernel. The Linux kernel has seen constant growth throughout its lifetime and today has more than 23.3 million lines of source code under its GNU General Public License.",
+            "link": "https: //en.wikipedia.org/wiki/History_of_Linux"
+        },
+        {
+            "header": "What really is Linux?",
+            "text": "Linux is a kernel that is used by its community to create open source operating systems. It is widely supported across many computer platforms.",
+            "link": "https://searchdatacenter.techtarget.com/definition/Linux-operating-system"
+        },
+        {
+            "header": "Purpose",
+            "text": "There are a few purposes for Linux, one of them is to provide a way to manage the resources of hardware, launch and maintain applications and provide some user interface. The main purpose of Linux however is that it provides these services for free.",
+            "link": "https://www.quora.com/What-is-the-purpose-of-Linux-operating-system"
+        },
+        {
+            "header": "Where is Linux today?",
+            "text": "Today Linux is still used heavily to run the internet and also to run the networks of small to large companies. It is used today to run databases due to its stability. In addition it is used for web serving, scientific computer, and home computing.",
+            "link": "http: //www.lugod.org/presentations/ca4h/used_for.html"
+        }
+    ]
+}
