@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <title>Install</title>
+    <title>Linux Distrubutions</title>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
 
     <div class="content">
         <div class="banner">
-            <h1 class="banner-text">About</h1>
+            <h1 class="banner-text">Linux Distrubutions</h1>
         </div>
 
         <!-- load in the content via json -->
