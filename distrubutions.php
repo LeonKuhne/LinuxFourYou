@@ -18,30 +18,10 @@
             <h1 class="banner-text">About</h1>
         </div>
 
+        <!-- load in the content via json -->
         <?php
-
-        $json = file_get_contents("assets/json/distrubutions.json");
-        $obj = json_decode($json);
-
-        // add title & description
-        $intro = $obj->intro;
-        echo "<hr />";
-        echo '<div class="page-title">';
-        echo "<h2>$intro->header</h2>";
-        echo "<p>$intro->text</p>";
-        echo "</div>";
-
-        // add sections to the page
-        foreach ($obj->sections as $section) {
-            echo "<hr />";
-            echo '<div class="section">';
-            echo "<h3>$section->header</h3>";
-            echo "<p>$section->text</p>";
-            if ($section->link) {
-                echo "<button><a href='$section->link'>Read More</a></button>";
-            }
-            echo "</div>";
-        }
+        $jsonfile = "assets/json/distrubutions.json";
+        include "loadjson.php";
         ?>
 
         <!-- Distribution instalation links can be found below -->
