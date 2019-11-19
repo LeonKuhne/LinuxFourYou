@@ -18,17 +18,10 @@
             <h1 class="banner-text">Install Ubuntu</h1>
         </div>
 
+        <!-- load in the content via json -->
         <?php
-        $json = file_get_contents("assets/json/install.json");
-        $obj = json_decode($json);
-        foreach ($obj->sections as $section) {
-            echo "<hr />";
-            echo '<div class="section">';
-            echo "<h3>$section->header</h3>";
-            echo "<p>$section->text</p>";
-            echo "<button><a href='$section->link'>Read More</a></button>";
-            echo "</div>";
-        }
+        $jsonfile = "assets/json/install.json";
+        include "loadjson.php";
         ?>
     </div>
 </body>
