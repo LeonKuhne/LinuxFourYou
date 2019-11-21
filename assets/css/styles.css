@@ -63,6 +63,16 @@ header {
     padding-right: 2vw;
 }
 
+.youtube {
+    width: 560px;
+    height: 315px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    display: block;
+}
+
 @media only screen and (min-width: 800px) {
     body {
         padding: 10px;
