@@ -81,6 +81,7 @@ header {
     padding-right: 2vw;
 }
 
+
 .glow {
      font-size: 69px;
     color: #fff;
@@ -98,7 +99,6 @@ header {
         text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
 }
-
 @media only screen and (min-width: 800px) {
     body {
         padding: 10px;
@@ -108,3 +108,17 @@ header {
         margin-right: 20vw;
     }
 }
+
+<<<<<<< HEAD
+=======
+.youtube {
+    width: 560px;
+    height: 315px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    display: block;
+>>>>>>> 891367f29558c2aec5b9bd297cf471f901ba0d63
+}
+
