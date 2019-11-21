@@ -7,16 +7,19 @@
 </head>
 
 <body>
-    <header>
-        <a class="logo" href="./"><img src="assets/images/Logo.png"></a>
-        <?php include "linuxnav.html"; ?>
-    </header>
-
-
-    <div class="content">
         <div class="banner">
-            <h1 class="banner-text">Linux Distrubutions</h1>
+             <header>
+                 
+                 <a class="logo" href="./"><img src="assets/images/Logo.png"></a>
+                 <?php include "linuxnav.html"; ?>
+                 
+                 
+                 <h1 class= "glow" class="banner-text">Install</h1>
+            
+             </header>
         </div>
+    
+        <div class="content">
 
         <!-- load in the content via json -->
         <?php
