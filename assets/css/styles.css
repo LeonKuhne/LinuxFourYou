@@ -1,23 +1,36 @@
+*{ margin: 0; padding: 0; }
+
+html {
+  height: 100%;
+}
+
 body {
     margin: 0;
     font-family: 'Courier New';
-    background-color: #d54a2d;
+    background-image: linear-gradient(#d54a2d , #8b2555);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
-    margin: auto;
+
 }
 
 .logo>img {
     position: fixed;
-    max-height: 40px;
+    left: 150px;
+    top: 38px;
+    max-height: 125px;
 }
 
 .content {
-    background-color: #eee;
+    background-color: #fbeafa;
     font-family: 'Trebuchet MS';
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-bottom-right-radius: 9%;
+    border-bottom-left-radius: 9%;
+    border-bottom: 16px solid #8b2555;
+    border-right: 16px solid #8b2555;
+    border-left: 16px solid #8b2555;
 }
 
 .content hr {
@@ -25,15 +38,23 @@ header {
 }
 
 .section {
+    text-align: center;
     display: flex;
     flex-direction: column;
     padding: 20px;
-    border-left: 1px dotted black;
-    border-right: 1px dotted black;
 }
 
 .section button {
+    margin: 0 auto;
+    background-color: lightgreen;
+    border-radius: 4px;
+    padding: 12px 28px;
+    border: 2px solid grey; 
     max-width: max-content;
+}
+
+.section button:hover {
+    background-color: #8b2555;
 }
 
 .section a {
@@ -43,24 +64,39 @@ header {
 
 .banner {
     width: 100%;
-    background-image: url("../images/banner.jpg");
+    background-image: url("../images/banner.png");
     background-position: center;
     background-size: cover;
+    padding-bottom: 60px;
+    padding-top: 0px;
 }
 
 .banner-text {
-    max-width: min-content;
-    text-align: center;
-    margin: auto;
-    color: black;
-    padding: 20px 60px 20px 60px;
-    background-color: #eeea;
-    border-radius: 15px;
+    padding-top: 20px;
+  
 }
 
 .page-title {
     padding-left: 2vw;
     padding-right: 2vw;
+}
+
+.glow {
+     font-size: 69px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
 }
 
 @media only screen and (min-width: 800px) {
