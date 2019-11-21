@@ -85,6 +85,8 @@ header {
 .glow {
      font-size: 69px;
     color: #fff;
+    position: relative;
+    bottom: -28px;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
