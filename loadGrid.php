@@ -11,12 +11,16 @@
     echo "<p>$intro->text</p>";
     echo "</div>";
 
-    foreach($obj->sections as $section){
-    	echo "<div class='grid'>";
-    	echo "<h4>$section->header</h4>";
-    	echo 
-
+    //grid for list of programs
+    echo "<div class='container'>"
+    foreach($obj->grid as $box){
+    	echo "<div class='item'>";
+    	echo "<h4>$box->title</h4>";
+    	echo "<p>$box->content</p>";
+    	echo "<button><a href='$box->link'>Download</a></button>";
+    	echo "</div>";
     }
+    echo "</div>";
 }
 
  ?>
