@@ -1,4 +1,9 @@
 {
+    "intro": {
+            "header": "About Linux",
+            "text": "This is a page about Linux"
+    },
+
     "sections": [
         {
             "header": "History",
