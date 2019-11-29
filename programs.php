@@ -16,11 +16,9 @@
 			
 			<?php 
 			$jsonfile= "assets/json/programs.json";
-			include "loadjson.php:"
+			include "loadGrid.php";
 			?>
 			
 		</div>
-
-
 	</body>
 </html>
