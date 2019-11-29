@@ -12,12 +12,12 @@
     echo "</div>";
 
     //grid for list of programs
-    echo "<div class='container'>"
+    echo "<div class='container'>";
     foreach($obj->grid as $box){
     	echo "<div class='item'>";
     	echo "<h4>$box->title</h4>";
     	echo "<p>$box->content</p>";
-    	echo "<button><a href='$box->link'>Download</a></button>";
+    	echo "<div class='grid-link'><a href='$box->link'>Download</a></div>";
     	echo "</div>";
     }
     echo "</div>";

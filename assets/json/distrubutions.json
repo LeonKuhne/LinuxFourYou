@@ -26,7 +26,8 @@
         },
         {
             "header": "OK, so which one is better?",
-            "text": "Figuring out which Linux is best for you can be tough but hopefully a few suggestions should help. If you're looking for an easy to use, widely supported distribution then Ubuntu is a great choice. If you're looking for an older, more stable distribution then Debian is a good choice. If you want to take a look at and use the newest versions of software then Fedora might be what you’re looking for. Finally, if you’re looking for a less resource hungry distribution then you should take a look at Linux Mint."
+            "text": "Figuring out which Linux is best for you can be tough but hopefully a few suggestions should help. If you're looking for an easy to use, widely supported distribution then Ubuntu is a great choice. If you're looking for an older, more stable distribution then Debian is a good choice. If you want to take a look at and use the newest versions of software then Fedora might be what you’re looking for. Finally, if you’re looking for a less resource hungry distribution then you should take a look at Linux Mint.",
+            "link": "https://www.google.com"
         }
     ]
 }

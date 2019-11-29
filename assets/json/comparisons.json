@@ -2,7 +2,8 @@
     "sections": [
         {
             "header": "Comparing Linux to other OSs",
-            "text": "Linux operates much differently compared to other OSs. Important things to look for when comparing OSs are what exactly the OS is being used for, what kind of personalization is required, and many other valuable things."
+            "text": "Linux operates much differently compared to other OSs. Important things to look for when comparing OSs are what exactly the OS is being used for, what kind of personalization is required, and many other valuable things.",
+            "link": "www.google.com"
         },
         {
             "header": "Linux VS Mac OS and Windows",

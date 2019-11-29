@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/grid-styling.css">
 		<title>Programs</title>
 	</head>
 	<body>
@@ -18,7 +19,7 @@
 			$jsonfile= "assets/json/programs.json";
 			include "loadGrid.php";
 			?>
-			
+
 		</div>
 	</body>
 </html>

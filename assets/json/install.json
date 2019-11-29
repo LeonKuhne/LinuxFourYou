@@ -1,4 +1,8 @@
 {
+    "intro": {
+    	"header": "Placeholder to not crash",
+    	"text": "Placeholder to not crash"
+    },
     "sections": [
         {
             "header": "How to install the Ubuntu Linux Distrubution",
