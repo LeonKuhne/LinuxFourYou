@@ -5,9 +5,19 @@
 
 	"grid": [
 		{
-			"title":
-			"content":
-			"link"
+			"title": "Ranger",
+			"content": "A file management program that operates in the terminal window and allows Linux users to easily view and edit files.",
+			"link": "https://pkgs.org/download/ranger"
+		},
+		{
+			"title": "i3",
+			"content": "a tiling window manager program that rearranges and organizes windows on your screen to different spaces without overlapping each other. This program isn’t particularly fancy but it is fast with an emphasis on minimalism and keyboard driven workflow.",
+			"link": "https://i3wm.org/"
+		},
+		{
+			"title": "htop",
+			"content": "a program based off of the ‘top’ command is Linux that shows you what applications are taking up your CPU and memory usage. In essence htop is a more advanced version of that command that allows to see a lot more useful information such as showing the usage of multiple CPUs, a text graph of your memory and swap usage.",
+			"link": "https://hisham.hm/htop/index.php?page=downloads"
 		}
 	]
 }
