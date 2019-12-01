@@ -12,10 +12,13 @@
         <?php include "linuxnav.html"; ?>
     </header>
 
+    <div class="banner">
+            <h1 class="glow">Comparisons</h1>
+        </div>
 
     <div class="content">
-        <div class="banner">
-            <h1 class="banner-text">Comparisons</h1>
+        <div class="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EB5hPlqrGU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
 
         <?php
@@ -30,10 +33,6 @@
             echo "</div>";
         }
         ?>
-
-        <div class="youtube">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/EB5hPlqrGU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
     </div>
 </body>
 
