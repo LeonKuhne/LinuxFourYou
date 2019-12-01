@@ -14,10 +14,6 @@ body {
     background-attachment: fixed;
 }
 
-header {
-
-}
-
 .logo>img {
     position: fixed;
     left: 150px;
@@ -48,6 +44,7 @@ header {
 
 h3 {
     font-size: 22px;
+    text-align: center;
 }
 
 p {
@@ -120,16 +117,21 @@ p {
     }
 }
 
-<<<<<<< HEAD
-=======
 .youtube {
     width: 560px;
     height: 315px;
     margin: auto;
-    position: absolute;
     right: 0;
     left: 0;
     display: block;
->>>>>>> 891367f29558c2aec5b9bd297cf471f901ba0d63
+    padding: 50px;
 }
 
+.calendar {
+    margin: auto;
+    right: 0;
+    left: 0;
+    display: block;
+    padding: 50px;
+    text-align: center;
+}
