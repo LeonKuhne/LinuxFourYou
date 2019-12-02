@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <title>Install Ubuntu</title>
+    <title>Install - LinuxFourYou</title>
 </head>
 
 <body>
