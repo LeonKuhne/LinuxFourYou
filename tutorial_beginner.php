@@ -14,7 +14,7 @@
             <?php include "linuxnav.html"; ?>
 
 
-            <h1 class="glow" class="banner-text">About</h1>
+            <h1 class="glow" class="banner-text">Beginner Tutorial</h1>
 
         </header>
     </div>
