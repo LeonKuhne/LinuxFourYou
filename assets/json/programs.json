@@ -1,0 +1,19 @@
+{
+    "sections": [
+        {
+            "header": "ranger",
+            "text": "The program known as ranger is a file management program that operates in the terminal window and allows Linux users to easily view and edit files. When you start ranger you’ll see a display that will show you who the user and system is and underneath that there you’ll find a few columns. The first is will show you your current directory location you are in. To the right is a column which lists all of the subdirectories. To the right of that column is another column which lists either the number of files in that subdirectory or if it is a file will show the size of it. To the right of that column is a column which shows the content of the selected subdirectory or if its a file will show the contents of that file. As for the commands, you can use the letter ‘q’ to quit, the left arrow key to move up, the right arrow key to move down, and the return/enter key to select a directory or open a file. Overall ranger is a great way to help you move around your directories instead of typing out commands in the command-line.",
+            "link": "https://pkgs.org/download/ranger"
+        },
+        {
+            "header": "i3",
+            "text": "The Linux program i3 is a tiling window manager program that rearranges and organizes windows on your screen to different spaces without overlapping each other. This program isn’t particularly fancy but it is fast with an emphasis on minimalism and keyboard driven workflow. With i3 you will be able to create your own shortcuts by assigning certain actions to a key or multiple key combination. These actions can be things from opening or closing windows to resizing windows, controlling volume and change various parts of your layout. With i3 you will be able to work within a highly flexible environment as the program is fully configurable allowing you to change its rename aspects of it, status bars or other ways to fit how you would like it to work.",
+            "link": "https://i3wm.org/"
+        },
+        {
+            "header":"htop",
+            "text":"The Linux program htop is a program based off of the ‘top’ command is Linux that shows you what applications are taking up your CPU and memory usage. In essence htop is a more advanced version of that command that allows to see a lot more useful information such as showing the usage of multiple CPUs, a text graph of your memory and swap usage. However the interesting part is being able to use the up and down arrow keys to navigate through different processes. With the F9 key you can kill a process, and with the F7 and F8 keys you can set a process with different priorities. You can also use the F6 key to bring up a menu where you can select what to sort the list of processes by.",
+            "link":"https://hisham.hm/htop/index.php?page=downloads"
+        }
+    ]
+}

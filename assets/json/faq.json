@@ -1,0 +1,19 @@
+{
+    "sections": [
+        {
+            "header": "Stack Overflow",
+            "text": "Stack Overflow is a massive website where people can ask questions relating to many computer coding related topics. This includes programming in Linux. So that way if you have questions about programming in Linux Stack Overflow will have you covered.",
+            "link": "https://stackoverflow.com/questions/tagged/linux"
+        },
+        {
+            "header": "LinuxQuestions",
+            "text": "LinuxQuestions is a website that focuses on learning about the Linux operating system. It has many chapters to delve into and quizzes to do at the end of them. The website also includes forums for discussing Linux and a number of articles that were submitted by users and approved by the site. If you’re looking to further your knowledge on Linux this is a great place to go",
+            "link": "https://www.linuxquestions.org/"
+        },
+        {
+            "header":"Unix and Linux Forum",
+            "text":"Unix and Linux Forum website is mainly used for discussing computer science related topics, generally geared towards Unix and Linux. The main intent of the site is to teach and discuss Linux and Unix to in a friendly manner to anyone interested.",
+            "link":"https://www.unix.com/linux/"
+        }
+    ]
+}
