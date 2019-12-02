@@ -1,0 +1,24 @@
+{
+    "intro": {
+        "text": "In Linux there's a lot of subtle actions you can do to make your life easier. Here is a list of some tips and tricks for you to use."
+    },
+    "sections": [
+        {
+            "header": "Tab for Auto-completion",
+            "text": "This is a very simple one. When you are typing something into the command-line terminal you can press tab and you will be suggested options based on what you’ve type so far. This works for files you’ve made or have and also commands."
+        },
+        {
+            "header": "Navigation Shortcuts",
+            "text": "Here are some commands you can use to get around Linux’s directories quickly.\nLet’s say you’re working in a directory, then you moved to a directory in a completely different path but you want to get back to the previously directory. You can use the ‘cd -’ command to do so.\nIf you ever find yourself wanting to just move to the home directory you can use the ‘cd ~’ command to get there."
+        },
+        {
+            "header": "Find Previously used Commands",
+            "text": "If you find yourself in a situation where you want to use a command you used a while ago but kind remember exactly what it was you can press ‘ctrl + r’ to activate a reverse search and when type in part of the command that you remember. With luck you should be able to find the command you were looking for."
+        },
+        {
+            "header": "Fix Typos",
+            "text": "If you find yourself misspelling certain commands as you try to type you can assign aliases to them. For example, if you misspell the command grep as gerp you can type ‘alias gerp=grep’ into the command line so that it won’t cause you problems anymore when misspelling the command.",
+            "link": "https://itsfoss.com/linux-command-tricks/"
+        }
+    ]
+}
