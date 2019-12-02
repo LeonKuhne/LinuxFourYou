@@ -20,6 +20,14 @@ foreach ($obj->sections as $section) {
     echo "<p>$section->text</p>";
     if ($section->link) {
         echo "<button><a href='$section->link'>Read More</a></button>";
+    } elseif ($section->links) {
+        echo "<div>";
+        $count = 0;
+        foreach ($section->links as $link) {
+            $count++;
+            echo "<button><a href='$link'>Read More [$count]</a></button>";
+        }
+        echo "</div>";
     }
     echo "</div>";
 }

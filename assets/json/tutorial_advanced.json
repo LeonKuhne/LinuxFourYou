@@ -1,0 +1,21 @@
+{
+    "sections": [
+        {
+            "header": "OpenSSH",
+            "text": "OpenSSH is a free set of tools which are used in order to make secure connections. To install OpenSSH on Linux you type ‘sudo apt update’ and then ‘sudo apt install openssh-server’ into your command prompt. Once that is done type in your password as necessary and type ‘Y’ to continue the installation. With OpenSSH you’ll be able to securely access perform remote logins and remote file transfers. Within OpenSSH there are three client programs. First there is ssh which is the client shell. Second is scp which is a command line program that allows for copying files from one machine to another. Third is sftp which is also used for copying files from one machine to another but using ftp.",
+            "link": "https: //www.linux.org/threads/openssh.4182/"
+        },
+        {
+            "header": "Programming with BASH",
+            "text": "BASH is essentially used to create scripts within Linux and can be very useful to use. Let's go through an example to get you a bit familiar with BASH. To make a script create a file and name it something like myFile. In the beginning of the file type #!/bin/bash or #!/bin/sh if BASH is your default shell. This line will declare what interpreter the file uses. The ‘#’ symbol besides the first line is used to create comments in the file. After that make a variable which is done by doing something like animal=  ‘dog’ which creates a variable named animal that contains the ‘dog’ text. Next you can print this line by use echo My Favorite animal is a $animal. Once that is done save the file and close it. Then in the terminal type ./myFile.sh which will display ‘My favorite animal is a dog.’",
+            "link": "https: //www.linux.org/threads/programming-with-bash.4234/"
+        },
+        {
+            "header": "Checking for damage using rootkit hunter",
+            "text": "In Linux its very possible for your system to get damaged or hacked, especially if you are new to Linux as a whole. One way to check for these damages is with Rootkit Hunter. Rootkit Hunter is a command line tool that searches for malicious content called rootkits within your system. To download Rootkit Hunter on your system go to your terminal and type:\ncd /tmp\nwget http://downloads.sourceforge.net/project/rkhunter/rkhunter/1.4.2/rkhunter-1.4.2.tar.gz\nAfter that you’ll want to install Rootkit Hunter which can be done by entering:\ntar -xvf rkhunter-1.4.2.tar.gz\ncd rkhunter-1.4.2\n\n./installer.sh --layout default --install\nNow to actually use Rootkit Hunter type:\nrkhunter --check\nThis will check your system for rootkits.",
+            "links": [
+                "https://www.tecmint.com/install-rootkit-hunter-scan-for-rootkits-backdoors-in-linux/","https://www.linux.org/threads/checking-for-damage-with-rootkit-hunter.4183/"
+            ]
+        }
+    ]
+}
