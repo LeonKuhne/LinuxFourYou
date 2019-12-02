@@ -16,8 +16,10 @@
     foreach($obj->grid as $box){
     	echo "<div class='item'>";
     	echo "<h4>$box->title</h4>";
+    	echo "<div class='item-dropdown>";
     	echo "<p>$box->content</p>";
-    	echo "<div class='grid-link'><a href='$box->link'>Download</a></div>";
+    	echo "<a href='$box->link'>Download</a>";
+    	echo "</div>";
     	echo "</div>";
     }
     echo "</div>";
