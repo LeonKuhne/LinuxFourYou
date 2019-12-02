@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <title>About Linux</title>
+    <title>About - LinuxFourYou</title>
 </head>
 
 <body>
