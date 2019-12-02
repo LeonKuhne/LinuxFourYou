@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <title>Distrubutions - LinuxFourYou</title>
+    <title>Distributions - LinuxFourYou</title>
 </head>
 
 <body>
@@ -27,7 +27,7 @@
         include "loadjson.php";
         ?>
 
-        <!-- Distribution instalation links can be found below -->
+        <!-- Distribution installation links can be found below -->
         <hr />
         <div class="section">
             <p>Here are links to the download page for each of the Linux distributions stated above.</p>
