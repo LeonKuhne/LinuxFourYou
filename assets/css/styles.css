@@ -106,6 +106,7 @@ p {
         text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
 }
+
 @media only screen and (min-width: 800px) {
     body {
         padding: 10px;
@@ -133,4 +134,51 @@ p {
     display: block;
     padding: 50px;
     text-align: center;
+}
+
+.link {
+    display: none;
+    text-align: center;
+}
+
+.small {
+    display: none;
+}
+
+@media screen and (max-width: 840px) {
+    .logo>img {
+        top: 30px;
+        left: 30px;
+        max-width: 60px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .link {
+        display: block;
+        text-align: center;
+    }
+
+    .calendar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 669px) {
+    .glow {
+        font-size: 45px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 702px) {
+    .youtube {
+        display: none;
+    }
+
+    .small {
+        display: block;
+        text-align: center;
+        padding: 20px;
+    }
 }
