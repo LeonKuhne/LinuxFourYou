@@ -60,6 +60,8 @@ p {
     max-width: max-content;
 }
 
+.section button 
+
 .section button:hover {
     background-color: #8b2555;
 }
