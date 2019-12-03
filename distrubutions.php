@@ -15,6 +15,7 @@
                  
                  
                  <h1 class= "glow" class="banner-text">Install</h1>
+                 <?php include "linuxhamburgermenu.html"; ?>
             
              </header>
         </div>
