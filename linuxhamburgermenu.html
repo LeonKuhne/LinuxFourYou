@@ -3,7 +3,7 @@
 <!-- Group Project hamburger menu -->
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="hamburgercss.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/hamburgercss.css">
     <script src="hamburger.js"></script>
 </head>
 
@@ -18,32 +18,30 @@
         </a>
 
         <ul id="menu">
-            <li><a href="javascript:void(0);" id="about" onclick="childrenBelow('belowAbout')">About</a>
-                <ul id="belowAbout">
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">History of Linux</a></li>
-                    <li><a href="">Purpose of Linux</a></li>
-                    <li><a href="">Where is Linux?</a></li>
-                </ul>
-            </li>
+            <li><a href="./" id="about">About</a></li>
             <li><a href="javascript:void(0);" id="why" onclick="childrenBelow('belowWhy')">Why Linux?</a>
                 <ul id="belowWhy">
-                    <li><a href="">Comparisons</a></li>
-                    <li><a href="">Facts</a></li>
+                    <li><a href="./comparisons.php">Comparisons</a></li>
+                    <li><a href="./facts.php">Facts</a></li>
                 </ul>
             </li>
-            <li><a href="">Install</a></li>
+            <li><a href="javascript:void(0);" id="install" onclick="childrenBelow('belowInstall')">Install</a>
+                <ul id="belowInstall">
+                    <li><a href="./distrubutions.php">Distributions</a></li>
+                    <li><a href="./install.php">Ubuntu</a></li>
+                </ul>
+            </li>
             <li><a href="javascript:void(0);" id="tuts" onclick="childrenBelow('belowTuts')">Tutorials</a>
                 <ul id="belowTuts">
-                    <li><a href="">Beginner</a></li>
-                    <li><a href="">Intermediate</a></li>
-                    <li><a href="">Advanced</a></li>
-                    <li><a href="">Tips and tricks</a></li>
+                    <li><a href="./tutorial_beginner.php">Beginner</a></li>
+                    <li><a href="./tutorial_intermediate.php">Intermediate</a></li>
+                    <li><a href="./tutorial_advanced.php">Advanced</a></li>
+                    <li><a href="./tips_and_tricks.php">Tips and tricks</a></li>
                 </ul>
             </li>
-            <li><a href="">Events</a></li>
-            <li><a href="">Programs</a></li>
-            <li><a href="">FAQ</a></li>
+            <li><a href="./events.php">Events</a></li>
+            <li><a href="./programs.php">Programs</a></li>
+            <li><a href="./faq.php">FAQ</a></li>
         </ul>
 
     </nav>
