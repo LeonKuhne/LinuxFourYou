@@ -31,3 +31,5 @@ foreach ($obj->sections as $section) {
     }
     echo "</div>";
 }
+
+?>
