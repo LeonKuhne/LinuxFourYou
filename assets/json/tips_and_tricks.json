@@ -1,8 +1,8 @@
 {
-    "intro": {
-        "text": "In Linux there's a lot of subtle actions you can do to make your life easier. Here is a list of some tips and tricks for you to use."
-    },
     "sections": [
+        {
+            "text": "In Linux there's a lot of subtle actions you can do to make your life easier. Here is a list of some tips and tricks for you to use."
+        },
         {
             "header": "Tab for Auto-completion",
             "text": "This is a very simple one. When you are typing something into the command-line terminal you can press tab and you will be suggested options based on what you’ve type so far. This works for files you’ve made or have and also commands."

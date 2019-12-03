@@ -16,7 +16,9 @@
             foreach ($obj->sections as $section) {
                 echo "<hr />";
                 echo '<div class="section">';
-                echo "<h3>$section->header</h3>";
+                if($section->header){
+                    echo "<h3>$section->header</h3>";
+                }
                 echo "<p>$section->text</p>";
                 if($section->video){
                     echo "<div class=youtube>";

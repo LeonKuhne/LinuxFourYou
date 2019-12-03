@@ -1,9 +1,9 @@
 {
-    "intro": {
-        "header": "Beginner",
-        "text": "Linux is a well known and popular operating system but has some differences compared to other operating systems. If you’re new to Linux then here are some commands and concepts that are important to know."
-    },
+    
     "sections": [
+        {
+            "text": "Linux is a well known and popular operating system but has some differences compared to other operating systems. If you’re new to Linux then here are some commands and concepts that are important to know."
+        },
         {
             "header": "Getting Around the System:",
             "text": "One important command to know is cd. Like in other command lines cd means Change Directory. Simply put on the command line you can type in cd and whatever directory you are trying to get to. For instance let's say the directory in is above another directory called ‘FunFolder.’ In order to move to the FunFolder you would need to type in ‘cd FunFolder.’ Using cd like this you can travel down through a list of directories and files, but what if you needed to move back up a directory? To that then you would type in cd .. which would move you up one directory. You can also use / to move up multiple directories like cd ../../../ which would move you up three directories. Another way to use cd is to use ‘cd /’ which will return you to the root of your system. You might be thinking that it's great to know how to move around the directory, but how do I know where I want to go? To answer this you would use the ls command. The ls command will display all of the contents in whatever directory you are currently in.",
