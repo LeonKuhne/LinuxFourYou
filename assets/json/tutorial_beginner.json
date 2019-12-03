@@ -7,17 +7,21 @@
         {
             "header": "Getting Around the System:",
             "text": "One important command to know is cd. Like in other command lines cd means Change Directory. Simply put on the command line you can type in cd and whatever directory you are trying to get to. For instance let's say the directory in is above another directory called ‘FunFolder.’ In order to move to the FunFolder you would need to type in ‘cd FunFolder.’ Using cd like this you can travel down through a list of directories and files, but what if you needed to move back up a directory? To that then you would type in cd .. which would move you up one directory. You can also use / to move up multiple directories like cd ../../../ which would move you up three directories. Another way to use cd is to use ‘cd /’ which will return you to the root of your system. You might be thinking that it's great to know how to move around the directory, but how do I know where I want to go? To answer this you would use the ls command. The ls command will display all of the contents in whatever directory you are currently in.",
-            "link": "https: //www.linux.org/threads/getting-around-in-linux-directories.4120/"
+            "video": "https://www.youtube.com/embed/FTTr2bjI2UM",
+            "link": "https://www.linux.org/threads/getting-around-in-linux-directories.4120/"
+            
         },
         {
             "header": "Permissions",
             "text": "An important concept to understand in Linux are files permissions. Essentially you have three levels of permission that you can place on a file. These are read, write, and execute. Read access will let whoever you want to be able to read the file, write access allows someone to make changes to the file, and execute allows you to activate the file if it is an executable type. Another thing to understand are the three groups of people you can assign these permissions to. Those groups are the owner, group, and world. Owner is yourself, group would be your group of people you may be working with, and finally world would be anyone else.",
-            "link": "https: //www.linux.org/threads/file-permissions-chmod.4124/ "
+            "video": "https://www.youtube.com/embed/BmVmJi5dR9c",
+            "link": "https://www.linux.org/threads/file-permissions-chmod.4124/ "
         },
         {
             "header": "Setting the Permissions with chmod",
             "text": "In order to set permissions on a file you can use the chmod command. The chmod command allows you to set the permissions of files using octal numbers. In Linux the read permission would relate to the number 4, write to 2, and execute to 1, so if you wanted a file to be fully accessible, the number to use it 6. If you wanted to allow everyone to do anything to the file, you would use the number 666. As an example, let's say we have a file called ‘fun.txt’. If you wanted to set the permission of this file to allow anything to do anything with it, you would type ‘chmod 666 fun.txt’ into the command line. As another example, if you only wanted yourself to read, write, and execute the file, you would type ‘chmod 600 fun.txt’ into the command line. Another example would be if you only wanted anyone to read the file you would input ‘chmod 444 fun.txt’ in the command line.",
-            "link": "https: //www.linux.org/threads/command-chmod.291/"
+            "video": "https://www.youtube.com/embed/P3DHLMEU5lo",
+            "link": "https://www.linux.org/threads/command-chmod.291/"
         }
     ]
 }

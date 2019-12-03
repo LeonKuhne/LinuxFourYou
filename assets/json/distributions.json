@@ -7,22 +7,22 @@
         {
             "header": "Ubuntu",
             "text": "Ubuntu is one of if not the most popular distribution of Linux out there. Ubuntu is a user friendly operating system that is also free to install and use. The operating system also allows users to boot the system from a USB so there's no real commitment in using Ubuntu if you don’t want to overwrite your computer's native operating system. One reason to choose Ubuntu as your Linux distribution of choice as compared to other distributions is that Ubuntu is made to be user friendly and is a great starting place for people interested in Linux. After all one of Ubuntu’s slogans is Linux for Humans.",
-            "link": "https: //fossbytes.com/reasons-to-use-ubuntu-linux-advantage/"
+            "link": "https://fossbytes.com/reasons-to-use-ubuntu-linux-advantage/"
         },
         {
             "header": "Debian",
             "text": "Debian is an older linux distribution that other operating systems like Ubuntu are based off of. Like Ubuntu Debian is free but doesn’t update as often as  other Linux distributions. This can actually be a good thing as it makes the operating system more stable which is very needed for some systems.",
-            "link": "https: //www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/"
+            "link": "https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/"
         },
         {
             "header": "Fedora",
             "text": "Like other distributions Fedora is free to install but is considered to be bleeding edge which means it always contains the newest versions of software. Different from Ubuntu, Fedora doesn’t make its own desktop environment nor does it make its own software. Instead Fedora uses upstream software and provides a platform for it.",
-            "link": "https: //www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/"
+            "link": "https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/"
         },
         {
             "header": "Linux Mint",
             "text": "Linux Mint is a distribution of Linux that was built on top of Ubuntu. Initially Mint was was used due to its inclusion of media codecs and proprietary software Ubuntu didn’t have. Now Mint is its own distribution and doesn’t have Ubuntu’s unity desktop and instead has its own called Cinnamon. Updates for Linux Mint are also more relaxed when compared to other distributions.",
-            "link": "https: //www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/"
+            "link": "https://www.howtogeek.com/191207/10-of-the-most-popular-linux-distributions-compared/"
         },
         {
             "header": "OK, so which one is better?",
