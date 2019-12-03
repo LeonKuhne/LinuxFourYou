@@ -12,8 +12,7 @@
         <?php include "linuxnav.html"; ?>
         <?php include "linuxhamburgermenu.html"; ?>
     </header>
-
-    //comment
+    
     <div class="banner">
             <h1 class="glow">Comparisons</h1>
         </div>
