@@ -74,13 +74,12 @@ p {
     background-image: url("../images/banner.png");
     background-position: center;
     background-size: cover;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
     padding-top: 0px;
 }
 
 .banner-text {
     padding-top: 20px;
-  
 }
 
 .page-title {
@@ -90,12 +89,13 @@ p {
 
 
 .glow {
-     font-size: 69px;
+    font-size: 69px;
     color: #fff;
     text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
+    line-height: 150px;
 }
 
 @-webkit-keyframes glow {
