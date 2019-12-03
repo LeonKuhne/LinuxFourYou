@@ -3,7 +3,7 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <title>Programs - LinuxFourYou</title>
+    <title>Facts - LinuxFourYou</title>
 </head>
 
 <body>
@@ -13,12 +13,12 @@
     </header>
 
     <div class="banner">
-        <h1 class="glow">Programs</h1>
+        <h1 class="glow">Facts</h1>
     </div>
 
     <div class="content">
         <?php
-        $json = file_get_contents("assets/json/programs.json");
+        $json = file_get_contents("assets/json/facts.json");
         $obj = json_decode($json);
         foreach ($obj->sections as $section) {
             echo "<hr />";
