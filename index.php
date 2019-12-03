@@ -16,7 +16,7 @@
              <?php include "linuxhamburgermenu.html"; ?>
              
              
-             <h1 class= "glow" class="banner-text">About</h1>
+             <h1 class= "glow" class="banner-text">LinuxFourYou</h1>
         
          </header>
     </div>
