@@ -12,6 +12,7 @@
 
             <a class="logo" href="./"><img src="assets/images/Logo.png"></a>
             <?php include "linuxnav.html"; ?>
+            <?php include "linuxhamburgermenu.html"; ?>
 
 
             <h1 class="glow" class="banner-text">Beginner Tutorial</h1>
