@@ -2,9 +2,27 @@
     "sections": [
         {
             "header": "Did You Know?",
-            "text": "Linux is used by major space programs such as NASA, ESA, and SpaceX? As of 2018, Linux is used in the world’s top 500 fastest supercomputers? Roughly 90% of Hollywood visual effects are dependant on Linux at some point in production? Over 95% of Linux is written in the C language? Linux wasn’t always open source? It only got a General Public Licenses in its 0.12 version in 1992.",
-            "link": "https://www.omgubuntu.co.uk/2018/08/interesting-facts-about-linux" 
-
+            "text": "Linux is used by major space programs such as NASA, ESA, and SpaceX?",
+            
+        },
+        {
+        	"text": "As of 2018, Linux is used in the world’s top 500 fastest supercomputers?"
+        },
+        {
+        	"text": "Roughly 90% of Hollywood visual effects are dependant on Linux at some point in production?"
+        },
+        {
+        	"text": "Over 95% of Linux is written in the C language?"
+        },
+        {
+        	"text": "Linux wasn’t always open source? It only got a General Public Licenses in its 0.12 version in 1992."
+        },
+        {
+        	"header": "Learn More Facts!",
+        	"link": "https://www.omgubuntu.co.uk/2018/08/interesting-facts-about-linux" 
+        		
         }
+        
+
     ]
 }
