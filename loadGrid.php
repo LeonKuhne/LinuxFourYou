@@ -14,9 +14,9 @@
     //grid for list of programs
     echo "<div class='container'>";
     foreach($obj->grid as $box){
-    	echo "<div class='item'>";
-    	echo "<h4>$box->title</h4>";
-    	echo "<div class='item-dropdown>";
+    	echo "<div class='dropdown'>";
+        echo "<button onclick='dropdownClick()' class='dropButton'>$box->title</button>";
+    	echo "<div class='dropContent click'>";
     	echo "<p>$box->content</p>";
     	echo "<a href='$box->link'>Download</a>";
     	echo "</div>";

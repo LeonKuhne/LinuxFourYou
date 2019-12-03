@@ -14,11 +14,27 @@
 		</header>
 
 		<div class="content">
-			
+
+			<script type="text/javascript">
+				function dropdownClick(){
+					var dropdowns = document.getElementsByCLassName("dropContent");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if ( dropdowns[i] != document.getElementById(id) ) {
+                                openDropdown.classList.remove('show');
+                        }
+                }
+          document.getElementById(id).classList.toggle("show");
+				}
+					
+			</script>
+
 			<?php 
 			$jsonfile= "assets/json/programs.json";
 			include "loadGrid.php";
 			?>
+
 
 		</div>
 	</body>

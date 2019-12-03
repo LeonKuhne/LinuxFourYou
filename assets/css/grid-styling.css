@@ -3,21 +3,42 @@
 	padding: 0;
 }	
 
-.item h4{
-	border: 5px solid black;
-    color: black;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    text-align: center;
-  	font-size: 130%;
+.dropContent{
+display: none;
+  position: relative;
+  min-width: 160px;
+  overflow: auto;
+  z-index: 1;
+}
+.show{
+    display: block;
 }
 
-.item a{
-	border: 1px solid black;
-    color: black;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    text-align: center;
-    text-decoration: none;
+.dropContent a {
+    
+  color: black;
+  padding: 12px 16px;
+  display: block;
 }
+
+.dropdown {
+  position: relative;
+  text-align: center;
+}
+
+.dropButton:hover, .dropButton:focus {
+  background-color:darkgray;
+  color:white;
+}
+
+.dropButton {
+    background: rgba(255,255,255,0);
+  color: black;
+  padding: 16px;
+  font-size: 120%;
+  border: none;
+  cursor: pointer;
+
+}
+
 
