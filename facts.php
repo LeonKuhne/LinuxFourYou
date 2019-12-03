@@ -23,9 +23,14 @@
         foreach ($obj->sections as $section) {
             echo "<hr />";
             echo '<div class="section">';
-            echo "<h3>$section->header</h3>";
+            if($section->header){
+                echo "<h3>$section->header</h3>";
+            }
             echo "<p>$section->text</p>";
-            echo "<button><a href='$section->link'>Learn More</a></button>";
+            if($section->link){
+                echo "<button><a href='$section->link'>Learn More</a></button>";
+            }
+            
             echo "</div>";
         }
         ?>
