@@ -3,16 +3,19 @@
         {
             "header": "Installing Programs",
             "text": "To install a program on Linux you’ll need to use whats called tarballs which give the *.tgz extension. For an example of installing a program you would type ‘installpkg program.tgz’. For an example of removing a program you would type ‘removepkg program.tgz’. In addition, if you would like to upgrade a currently installed program then you would use ‘upgradepkg new_version.tgz’ to do so.",
+            "video": "https://www.youtube.com/embed/19O5kFdtKb0",
             "link": "https: //www.linux.org/threads/installing-programs-and-upgrading-versions.4145/"
         },
         {
             "header": "Using vi/vim",
             "text": "VI is a very popular text editor that you can access at the command line in Linux. Within these files you can store normal text or create scripts to run. To open this text editor you would type ‘vi file.txt’ and it would open. To actually start typing in the file you need to press ESC then the letter ‘i’ on your keyboard and enter. After that you can start typing into the file. If you want to save the file you would press ESC then the letter ‘w’ and enter. In order to stop editing the file you would press ESC and type the letter ‘q’ to quit using the file and go back to the normal command prompt.",
+            "video": "https://www.youtube.com/embed/Duxfy_fqT8s",
             "link": "https://www.linux.org/threads/using-vi-vim.4139/"
         },
         {
             "header": "Security",
             "text": "As a new user of Linux you’ll have to know how to protect your system. One basic way to do this is to use md5sum. Most Linux distributions come with it and it is used to check the integrity of your packages. What md5sum does specifically is create a hash based on the number of bytes in your file. This way if someone or something were to tamper with the file, the number of bytes in the package would increase. An example of using md5sum would be this: ‘md5sum -c my_package.md5’ If the package is fine then you’ll get a message like \n\tmy_package: OK\nand if not then the prompt would display\nmy_package: FAILED\nmd5sum: WARNING: 1 of 1 computed checksum did NOT match",
+            "video": "https://www.youtube.com/embed/A62DhIu2_wE",
             "link": "https://www.linux.org/threads/dealing-with-security-issues.4140/"
         }
     ]

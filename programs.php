@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Roboto+Slab|Tomorrow&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <title>Programs - LinuxFourYou</title>
 </head>

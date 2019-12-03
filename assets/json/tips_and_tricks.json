@@ -17,7 +17,12 @@
         },
         {
             "header": "Fix Typos",
-            "text": "If you find yourself misspelling certain commands as you try to type you can assign aliases to them. For example, if you misspell the command grep as gerp you can type ‘alias gerp=grep’ into the command line so that it won’t cause you problems anymore when misspelling the command.",
+            "text": "If you find yourself misspelling certain commands as you try to type you can assign aliases to them. For example, if you misspell the command grep as gerp you can type ‘alias gerp=grep’ into the command line so that it won’t cause you problems anymore when misspelling the command."
+            
+        },
+        {
+            "header": "More Tips & Tricks",
+            "video": "https://www.youtube.com/embed/V8EUdia_kOE",
             "link": "https://itsfoss.com/linux-command-tricks/"
         }
     ]

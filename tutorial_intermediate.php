@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Roboto+Slab|Tomorrow&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
     <title>Intermediate Tutorial - LinuxFourYou</title>
 </head>
@@ -25,7 +26,7 @@
         <!-- load in the content via json -->
         <?php
         $jsonfile = "assets/json/tutorial_intermediate.json";
-        include "loadjson.php";
+        include "loadJsonVideo.php";
         ?>
     </div>
 </body>
