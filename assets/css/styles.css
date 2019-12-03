@@ -60,9 +60,17 @@ p {
     max-width: max-content;
 }
 
-.section button:hover {
-    background-color: #8b2555;
+.section button a{
+    color: white;
+    font-size: 120%;
 }
+
+.section button:hover {
+    
+    background-color: #8b2555;
+
+}
+
 
 .section a {
     text-decoration: none;
