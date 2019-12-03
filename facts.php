@@ -10,6 +10,7 @@
     <header>
         <a class="logo" href="./"><img src="assets/images/Logo.png"></a>
         <?php include "linuxnav.html"; ?>
+        <?php include "linuxhamburgermenu.html"; ?>
     </header>
 
     <div class="banner">
