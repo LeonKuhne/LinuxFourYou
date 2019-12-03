@@ -21,16 +21,17 @@
         $json = file_get_contents("assets/json/facts.json");
         $obj = json_decode($json);
         foreach ($obj->sections as $section) {
-            echo "<hr />";
             echo '<div class="section">';
             if($section->header){
                 echo "<h3>$section->header</h3>";
             }
-            echo "<p>$section->text</p>";
+            if($section->text){
+                echo "<p>$section->text</p>";
+            }
+            
             if($section->link){
                 echo "<button><a href='$section->link'>Learn More</a></button>";
             }
-            
             echo "</div>";
         }
         ?>
