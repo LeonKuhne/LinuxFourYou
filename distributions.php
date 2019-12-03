@@ -31,7 +31,7 @@
         <hr />
         <div class="section">
             <p>Here are links to the download page for each of the Linux distributions stated above.</p>
-            <ul>
+            <ul id="distributions-links">
                 <li><a href="https://ubuntu.com/download/desktop">Ubuntu</a></li>
                 <li><a href="https://www.debian.org/distrib/">Debian</a></li>
                 <li><a href="https://getfedora.org/en/workstation/download/">Fedora</a></li>

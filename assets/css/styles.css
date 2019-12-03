@@ -190,3 +190,15 @@ p {
         padding: 20px;
     }
 }
+
+
+#distributions-links li:hover{
+    text-decoration: none;
+}
+#distributions-links{
+    list-style-type: none;
+}
+
+#distributions-links li{
+    text-decoration: underline;
+}
