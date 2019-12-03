@@ -155,7 +155,7 @@ p {
 
 @media screen and (max-width: 840px) {
     .logo>img {
-        top: 30px;
+        top: 45px;
         left: 30px;
         max-width: 60px;
     }
