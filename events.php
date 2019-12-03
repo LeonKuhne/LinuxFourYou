@@ -15,6 +15,7 @@
              
              
              <h1 class= "glow" class="banner-text">Linux Events</h1>
+             <?php include "linuxhamburgermenu.html"; ?>
         
          </header>
     </div>
