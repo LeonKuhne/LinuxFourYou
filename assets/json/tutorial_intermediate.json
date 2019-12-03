@@ -6,7 +6,7 @@
             "link": "https: //www.linux.org/threads/installing-programs-and-upgrading-versions.4145/"
         },
         {
-            "header": "Using vi/vm",
+            "header": "Using vi/vim",
             "text": "VI is a very popular text editor that you can access at the command line in Linux. Within these files you can store normal text or create scripts to run. To open this text editor you would type ‘vi file.txt’ and it would open. To actually start typing in the file you need to press ESC then the letter ‘i’ on your keyboard and enter. After that you can start typing into the file. If you want to save the file you would press ESC then the letter ‘w’ and enter. In order to stop editing the file you would press ESC and type the letter ‘q’ to quit using the file and go back to the normal command prompt.",
             "link": "https://www.linux.org/threads/using-vi-vim.4139/"
         },

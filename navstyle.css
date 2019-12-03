@@ -31,11 +31,18 @@
 }
 
 #bar a:hover {
+    transition: 0.3s;
     color: #662946;
-    
     font-weight: bold;
 
 }
+
+#bar .purples:hover {
+    transition: 0.3s;
+    color: #fc6646;
+    
+}
+
 
 #bar a:visited {
     color: white;
@@ -93,11 +100,6 @@
     border-bottom: 2px solid;
 }
 
-.purple:hover {
-    
-    color: #fc6646;
-    
-}
 
 .glow {
    
