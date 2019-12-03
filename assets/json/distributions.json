@@ -1,9 +1,10 @@
 {
-    "intro": {
-        "header": "Linux Distros",
-        "text": "Before choosing to install Linux, you must choose which distribution of Linux you would like to install. To help you find what distribution is right for you, here are some details on some of the most popular distributions of Linux."
-    },
+    
     "sections": [
+        {
+            "header": "Linux Distros",
+            "text": "Before choosing to install Linux, you must choose which distribution of Linux you would like to install. To help you find what distribution is right for you, here are some details on some of the most popular distributions of Linux."
+        },
         {
             "header": "Ubuntu",
             "text": "Ubuntu is one of if not the most popular distribution of Linux out there. Ubuntu is a user friendly operating system that is also free to install and use. The operating system also allows users to boot the system from a USB so there's no real commitment in using Ubuntu if you don’t want to overwrite your computer's native operating system. One reason to choose Ubuntu as your Linux distribution of choice as compared to other distributions is that Ubuntu is made to be user friendly and is a great starting place for people interested in Linux. After all one of Ubuntu’s slogans is Linux for Humans.",
