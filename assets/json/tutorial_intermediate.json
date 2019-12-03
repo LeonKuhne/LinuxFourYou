@@ -4,7 +4,7 @@
             "header": "Installing Programs",
             "text": "To install a program on Linux you’ll need to use whats called tarballs which give the *.tgz extension. For an example of installing a program you would type ‘installpkg program.tgz’. For an example of removing a program you would type ‘removepkg program.tgz’. In addition, if you would like to upgrade a currently installed program then you would use ‘upgradepkg new_version.tgz’ to do so.",
             "video": "https://www.youtube.com/embed/19O5kFdtKb0",
-            "link": "https: //www.linux.org/threads/installing-programs-and-upgrading-versions.4145/"
+            "link": "https://www.linux.org/threads/installing-programs-and-upgrading-versions.4145/"
         },
         {
             "header": "Using vi/vim",
